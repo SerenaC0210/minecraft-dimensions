@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Overworld</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body id="pageTwo">
+        <div id="navBar2"> 
+            <a class = "navBarItems2" href="overworld.html">Overworld</a>
+            <a class = "navBarItems2" href="nether.html">Nether</a>
+            <a class = "navBarItems2" href="end.html">End</a>
+            <a class = "navBarItems2" href="funfact.html">Fun Fact Generator</a>
+            <a class = "navBarItems2" href="main.html">Main Page</a>
+        </div>
+
+        <!--Flex: row-->
+        <div id="pageTwoOverview"> 
+            <img id="overworldImage" src="images/overworld-1.png" alt="minecraft overworld image">
+            <div id="overworldText">
+                <h2 id="overworldHeader">Welcome to the Overworld</h2>
+                <p>This is the first and primary dimension in which all players will begin their Minecraft journey. This is where most players will spend the majority of their time. </p>
+                <ul>
+                    <li>Has a daylight cycle</li>
+                </ul>
+                <p>The player spawns in this dimension when they start the game.</p>
+            </div>
+        </div>
+        <!--Flex: column-->
+        <!--Three rows container-->
+        <div id="pageTwoRowContainer">
+            <!--Flex Row-->
+            <!--Mobs-->
+            <div class="pageTwoRows">
+                <img class="rowImages" src="images/overworld-villager.png" alt="villager">
+                <div class="descriptions">
+                    <h3 class="rowSubheadings">Mobs</h3>
+                    <p class="rowText">Mobs are the living creatures of Minecraft. Some are friendly, some are dangerous.</p>
+                    <p class="rowText">This on the right is a villager, they are friendly and you can trade with them. </p>
+                </div>
+            </div>
+            <!--Structures-->
+            <div class="pageTwoRows">
+                <img class="rowImages" src="images/pillager-tower.webp" alt="pillager tower">
+                <div class="descriptions">
+                    <h3 class="rowSubheadings">Structures</h3>
+                    <p class="rowText">Structures are naturally generated buildings scattered throughout the world where you can explore and find loot.</p>
+                    <p class="rowText">This is a pillager tower, hostile mobs like pillagers spawn here.</p>
+                </div>
+            </div>
+            <!--Ores-->
+            <div class="pageTwoRows">
+                <img class="rowImages" src="images/diamond-ore-block.png" alt="diamond ore block">
+                <div class="descriptions">
+                    <h3 class="rowSubheadings">Ores</h3>
+                    <p class="rowText">Ores are special blocks you mine to get resources for better tools and armor. They are primarily found in mines.</p>
+                    <p class="rowText">This is a diamond ore block, mine this with an iron pickaxe or higher to get diamonds!</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>

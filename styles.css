@@ -1,0 +1,420 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+/* CSS for main page */
+#pageOne {
+    background-color: #FAEDCD;
+    margin: 0;
+}
+
+#navBar1 {
+    background-color: #CCD5AE;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navBarItems1 { 
+    padding: 12px 16px;
+    text-decoration: none; 
+    text-decoration-line: none;
+    font-family: "Minecraft", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #28262C;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navBarItems1:hover {
+    color: #B77E45;
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+#mainLogo { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 120px;
+    margin-bottom: 0;
+    transition: transform 0.2s ease-in-out;
+}
+
+#mainLogo:hover{
+    transform: scale(1.25);
+}
+
+#subheader { 
+    text-align: center;
+    font-family: "Minecraft", sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    color: #28262C;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#mainPageContent { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#mainPageText { 
+    display: flex;
+    flex-direction: column;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    font-size: 21px;
+    margin: 20px;
+}
+
+#mainPageImage { 
+    width: auto;
+    height: 250px;
+}
+
+#mainPageBottomImage { 
+    width: 100%; 
+    max-height: 310px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* CSS for overworld page*/
+#pageTwo {
+    background-color: #CBAD8F;
+    margin: 0;
+}
+
+#navBar2 {
+    background-color: #526935;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navBarItems2 { 
+    padding: 12px 16px;
+    text-decoration: none; 
+    text-decoration-line: none;
+    font-family: "Minecraft", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navBarItems2:hover {
+    color: #B77E45;
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+#overworldHeader { 
+    font-family: "Minecraft", sans-serif;
+}
+
+#pageTwoOverview { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#overworldImage { 
+    width: auto;
+    height: 300px;
+    margin: 20px;
+}
+
+#overworldText { 
+    padding: 20px;
+    font-family: "Quantico", sans-serif;
+    color: #28262C;
+}
+
+#pageTwoRowContainer { 
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pageTwoRows { 
+    background-color: #B78C60;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 55px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.pageTwoRows:hover {
+    transform: scale(1.03);
+}
+
+.rowImages { 
+    width: auto;
+    height: 140px;
+    margin: 20px;
+}
+
+.rowSubheadings { 
+    font-family: "Minecraft", sans-serif;
+    font-size: 25px;
+    margin: 15px;
+    color: #FFFFFF;
+}
+
+.rowText { 
+    padding: 5px;
+    font-family: "Quantico", sans-serif;
+    color: #FFFFFF;
+}
+
+/* CSS for nether page */
+#pageThree {
+    background-color: #EDB87F;
+    margin: 0;
+}
+
+#navBar3 {
+    background-color: #511515;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navBarItems3 { 
+    padding: 12px 16px;
+    text-decoration: none; 
+    text-decoration-line: none;
+    font-family: "Minecraft", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navBarItems3:hover {
+    color: #B77E45;
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+#pageThreeOverview { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#netherImage { 
+    width: auto;
+    height: 300px;
+    margin: 20px;
+}
+
+#netherText { 
+    padding: 20px;
+    font-family: "Quantico", sans-serif;
+    color: #28262C;
+}
+
+#netherHeader { 
+    font-family: "Minecraft", sans-serif;
+}
+
+#pageThreeRowContainer { 
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pageThreeRows { 
+    background-color: #E78340;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 55px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.pageThreeRows:hover {
+    transform: scale(1.03);
+}
+
+/* CSS for end page */
+#pageFour {
+    background-color: #EBE1C6;
+    margin: 0;
+}
+
+#navBar4 {
+    background-color: #153731;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navBarItems4 { 
+    padding: 12px 16px;
+    text-decoration: none; 
+    text-decoration-line: none;
+    font-family: "Minecraft", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navBarItems4:hover {
+    color: #B77E45;
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+#pageFourOverview { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#endImage { 
+    width: auto;
+    height: 300px;
+    margin: 20px;
+}
+
+#endText { 
+    padding: 20px;
+    font-family: "Quantico", sans-serif;
+    color: #28262C;
+}
+
+#endHeader { 
+    font-family: "Minecraft", sans-serif;
+}
+
+#pageFourRowContainer { 
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pageFourRows { 
+    background-color: #315650;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 55px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.pageFourRows:hover {
+    transform: scale(1.03);
+}
+
+/* CSS for fun facts page */
+#pageFive {
+    background-color: #FAEDCD;
+    margin: 0;
+    text-align: center;
+}
+
+#factPageBottomImage{
+    width: 100%; 
+    max-height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+
+#factButton { 
+    align-self: center;
+    font-family: "Minecraft", sans-serif;
+    font-style: normal;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #a34a64;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: #8a3f56 0px 10px 0px 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#factButton:hover { 
+    transform: scale(1.1);
+}
+
+#factButton:active {
+    background-color: #a34a64;
+    box-shadow: #8a3f56 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+  
+#factText { 
+    font-family: "Quantico", sans-serif;
+    font-size: 20px;
+    color: #28262C;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Nether</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body id="pageThree">
+        <div id="navBar3"> 
+            <a class = "navBarItems3" href="overworld.html">Overworld</a>
+            <a class = "navBarItems3" href="nether.html">Nether</a>
+            <a class = "navBarItems3" href="end.html">End</a>
+            <a class = "navBarItems3" href="funfact.html">Fun Fact Generator</a>
+            <a class = "navBarItems3" href="main.html">Main Page</a>
+        </div>
+
+        <!--Flex: row-->
+        <div id="pageThreeOverview"> 
+            <div id="netherText">
+                <h2 id="netherHeader">Welcome to the Nether</h2>
+                <p>A fiery dimension that is filled with lava lakes. It's packed with rare resources, unique blocks, and important structures. Bring the right gear and watch your step!</p>
+                <ul>
+                    <li>No daylight cycle</li>
+                </ul>
+                <p>To get to the nether, a nether portal must be built. A standard frame for a nether portal is 14 blocks of obsidian. This structure must be lit by fire to activate.</p>
+            </div>
+            <img id="netherImage" src="images/nether.webp" alt="photo of the nether">
+        </div>
+        <!--Flex: column-->
+        <!--Three rows container-->
+        <div id="pageThreeRowContainer">
+            <!--Flex Row-->
+            <!--Mobs-->
+            <div class="pageThreeRows">
+                <img class="rowImages" src="images/ghast.webp" alt="photo of a ghast">
+                <div class="descriptions">
+                    <h3 class="rowSubheadings">Nether Mobs</h3>
+                    <p class="rowText">The nether is packed with hostile mobs that are way tougher than most overworld enemies.</p>
+                    <p class="rowText">This on the right is a Ghast. These ghost-like mobs float around aimlessly and shoot fireballs at players.</p>
+                </div>
+            </div>
+            <!--Structures-->
+            <div class="pageThreeRows">
+                <img class="rowImages" src="images/fortress.png" alt="photo of a nether fortress">
+                <div class="descriptions">
+                    <h3 class="rowSubheadings">Nether Structures</h3>
+                    <p class="rowText">These are dangerous but rewarding places to explore. They are filled with rare loot and powerful enemies. Some of these structures are important for progressing through the game.</p>
+                    <p class="rowText">This is part of a nether fortress.</p>
+                </div>
+            </div>
+            <!--Ores-->
+            <div class="pageThreeRows">
+                <img class="rowImages" src="images/quartz.png" alt="photo of quartz">
+                <div class="descriptions">
+                    <h3 class="rowSubheadings">Nether Ores</h3>
+                    <p class="rowText">These ores are rarer and often harder to mine. The most common are quartz and gold.</p>
+                    <p class="rowText">This is a quartz ore block. Mine this to get quartz, which are used to create pretty blocks!</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>
